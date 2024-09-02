@@ -70,6 +70,14 @@ or
 
 You can access airflow on your web browser with http://localhost:8080, username and password =  airflow
 
+To close it:
+
+`docker-compose stop`  if you don’t want volume and containers removed. You just want to stop your services from running
+
+or 
+
+`docker-compose down`  if you want conatiners and volume removed. You made changes to the configuration
+
 **2.1 On your EC2 instance**
 
 Copy docker folder from local machine to your EC2 instance:
