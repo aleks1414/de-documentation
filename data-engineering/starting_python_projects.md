@@ -89,7 +89,7 @@ conda env create -f environment.yml
 conda deactivate
 ```
 
-6. **Delet the Environment if something went wront
+6. **Delete the Environment if something went wrong**
 
 ```
 conda env remove --name pm_project_env
