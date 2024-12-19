@@ -28,6 +28,8 @@ pm_project/
     └── test_main.py          # Example test file
 ```
 
+Make sure to create a folder first for your project and then create a virtual environment there
+
 ## **2. Python Setup: Conda vs Other Virtual Environments**
 
 Python virtual environments isolate dependencies, ensuring compatibility and avoiding conflicts.
@@ -85,6 +87,12 @@ conda env create -f environment.yml
 
 ```
 conda deactivate
+```
+
+6. **Delet the Environment if something went wront
+
+```
+conda env remove --name pm_project_env
 ```
 
 ### **Using ```venv```**
